@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #111822;
+}
+
+.icon-back {
+  display: inline-flex;
+  gap: 10px;
+  padding: 10px;
+  top: 16px;
+  left: 64px;
+  align-items: center;
+  position: absolute;
+  color: white;
+}
+
+.icon-back img {
+  width: 50px;
+}
+
+.container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container a:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 60px;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 756px;
+  border: 1.5px solid #fff;
+  border-radius: 32px 0px 32px 0px;
+  -webkit-border-radius: 32px 0px 32px 0px;
+  -moz-border-radius: 32px 0px 32px 0px;
+  -ms-border-radius: 32px 0px 32px 0px;
+  -o-border-radius: 32px 0px 32px 0px;
+  gap: 24px;
+  padding: 54px;
+}
+
+.card-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 334px;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -13px;
+  margin-bottom: -13px;
+  margin-left: -23px;
+  margin-right: -23px;
+}
+
+.image-card {
+  position: relative;
+  width: 338px;
+  height: 496px;
+}
+
+.image-card img {
+  position: absolute;
+  width: 338px;
+  height: 496px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  position: relative;
+  width: 260px;
+  height: 32px;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 400;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  line-height: normal;
+}
+
+.paragraph-1 {
+  position: relative;
+  width: 338px;
+  height: 94px;
+  font-family: "Inria Sans", Helvetica;
+  font-weight: 400;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: normal;
+  text-decoration: none;
+}
